@@ -8,7 +8,12 @@ LIBFT	:= libft/libft.a
 LIBMLX	:= libmlx/libmlx.a
 
 FRACDR = main.c \
-
+		read.c \
+		draw.c \
+		key_commands.c \
+		ray_casting.c \
+		init.c \
+		
 SRC = $(addprefix src/, $(FRACDR))
 OBJ = $(SRC:.c=.o)
 

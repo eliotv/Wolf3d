@@ -6,11 +6,11 @@
 #    By: evanheum <evanheum@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2017/02/27 12:52:19 by evanheum          #+#    #+#              #
-#    Updated: 2017/06/13 12:19:44 by evanheum         ###   ########.fr        #
+#    Updated: 2017/10/04 10:01:11 by evanheum         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = libft.a
+NAME = megalibft.a
 
 CFLAGS = -Wall -Wextra -Werror
 
