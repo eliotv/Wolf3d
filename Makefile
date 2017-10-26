@@ -2,9 +2,9 @@ NAME = Wolf3d
 
 CFLAGS = -Wall -Werror -Wextra
 CFLAGS	+= -I includes -I libft/includes
-LDFLAGS	+= -L libft/ -lft -L libmlx/ -lmlx -framework OpenGL -framework AppKit
+LDFLAGS	+= -L libft/ -L libmlx/ -lmlx -framework OpenGL -framework AppKit
 
-LIBFT	:= libft/libft.a
+LIBFT	:= libft/megalibft.a
 LIBMLX	:= libmlx/libmlx.a
 
 FRACDR = main.c \
